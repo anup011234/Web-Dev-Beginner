@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Form</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <header>
+      <div class="h">
+        <b
+          ><em><h2>Application form</h2></em></b
+        >
+      </div>
+    </header>
+    <main class="wrap">
+      <form action="" method="get" id="f1" class="f1">
+        <div class="main" style="border-radius: 20px;">
+          <div class="space">
+            Enter your username : <br />
+            <!-- <label for="username"></label> <br> -->
+            <input
+              type="text"
+              class="info"
+              id="username"
+              required
+              placeholder="Enter your username"
+            />
+          </div>
+          <div class="space">
+            Create password : <br />
+            <!-- <label for="password" ></label> <br> -->
+            <input
+              type="password"
+              placeholder="New password"
+              class="info"
+              id="password"
+              required
+            />
+          </div>
+          <div style="user-select: none" class="space">
+            Enter you DOB :
+            <br />
+            <input type="date" name="" id="dob" required class="info" />
+          </div>
+          <div id="op">
+            Choose your qualification: <br />
+            <select name="select" id="option" required class="info">
+              <option value="Select your qualification" disabled selected>
+                Select
+              </option>
+              <option value="10th">Passed 10th or equivalent</option>
+              <option value="12th">Passed 12th or equivalent</option>
+              <option value="graduate">Under/Post Graduate</option>
+            </select>
+          </div>
+          <div id="text" class="space">
+            Comments
+            <caption id="caption">
+              (if any) :
+            </caption>
+            <br />
+            <textarea
+              name="textarea"
+              id="txt"
+              placeholder="Enter any comments if needed"
+              cols="20"
+              rows="3"
+              class="info"
+            ></textarea>
+          </div>
+          <p class="space">
+            Your mobile number : <br />
+            <input
+              type="text"
+              placeholder="Enter your mobile number"
+              id="number"
+              required
+              class="info"
+            />
+          </p>
+          <div>
+            <input type="submit" value="Submit" id="submit" />
+            <button type="reset">Reset</button>
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

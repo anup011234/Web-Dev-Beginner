@@ -1,0 +1,106 @@
+body {
+  background-color: black;
+}
+.header {
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+.form {
+  border: solid thin rgba(255, 255, 255, 0.212);
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+.pad {
+  padding: 40px;
+}
+.forgot:link {
+  color: rgba(255, 255, 255, 0.719);
+  font-size: thin;
+}
+.info {
+  padding: 2.5px;
+}
+.username {
+  padding: 5px;
+}
+.username-box {
+  padding: 15px;
+  width: 250px;
+  background-color: #131213;
+  border: 1px solid rgba(206, 199, 199, 0.342);
+  border-radius: 4px;
+  color: white;
+  cursor: text;
+}
+.password-box {
+  padding: 15px;
+  width: fit-content;
+  background-color: #131213;
+  border: 1px solid rgba(206, 199, 199, 0.342);
+  border-radius: 4px;
+  color: white;
+  width: 250px;
+}
+.login {
+  background-color: #0095f6;
+  width: 205px;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.login:hover {
+  text-shadow: 1px 1px 3px #01070a;
+}
+.forgot{
+    padding:10px;
+    padding-bottom: 0px;
+    margin: 0 auto;
+}
+.or{
+    color: gainsboro;
+    padding: 10px;
+    text-align: center;
+    top: 20px;
+    margin: 0 auto;
+}
+.tags >a{
+    color: rgba(255, 255, 255, 0.356);
+}
+.ltag:link{
+    color: none;
+}
+.noacc{
+    color: white;
+   border: solid thin rgba(255, 255, 255, 0.212);
+  text-align: center;
+  width: 295px;
+  margin: 0 auto;
+  padding: 20px 40px 20px 40px;
+  top: 20px;
+}
+.gap{
+    padding-top: 15px ;
+}
+.image{
+align-items: center;
+}
+img{
+ 
+ height: 450px;   width: 500px;
+}
+.fit{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 15vh;
+    margin: 0 auto; 
+}
